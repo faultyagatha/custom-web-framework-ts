@@ -10,6 +10,8 @@ const users = new Collection(rootURL, (json: IUserProps) => {
   return User.createUser(json);
 });
 
+users.fetch();
+
 users.on('change', () => {
   const root = document.getElementById('root');
   if (root) {

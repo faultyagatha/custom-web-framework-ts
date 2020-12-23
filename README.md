@@ -1,6 +1,6 @@
-## Custom Web Framework
+## Custom Barebone Web Framework
 
-### Designed to learn advance design patterns in Typescript as part of TS course
+### Designed to learn advanced design patterns in Typescript as part of TS course
 
 - bootstraped with [parcel-bundler](https://parceljs.org/)
 - and [json-server](https://github.com/typicode/json-server) to simulate backend
@@ -21,7 +21,7 @@
 - helps render a group of related models into HTML
 
 #### **User class:**
-- privides a simple example of extending model class, creating a collection of users, and customising templates for rendering into HTML
+- provides a simple example of extending model class, creating a collection of users, and customising templates for rendering into HTML
 
 
 
