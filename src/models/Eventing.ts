@@ -13,7 +13,7 @@ export class Eventing {
     this.events[eventName] = handlers;
   };
 
-  //runs callback functions registered by event handler
+  /* runs callback functions registered by event handler */
   trigger = (eventName: string): void => {
     const handlers = this.events[eventName];
     if (!handlers || handlers.length === 0) return;
